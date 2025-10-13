@@ -1,0 +1,22 @@
+.header{
+    height: 300px;
+    width: 100%;
+    background-color: #3B3737;
+}
+.logo{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 660px;
+}
+.botao1{
+    float: right;
+   background-color: aqua;
+   border: none;
+    padding: 200PX;
+}
+.brasil{
+    height: 50px;
+    width: 100px;
+    float: right;
+}
