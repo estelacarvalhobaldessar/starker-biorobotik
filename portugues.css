@@ -5,18 +5,35 @@
 }
 .logo{
       display: flex;
+      position: relative;
       justify-content: center;
       align-items: center;
       height: 660px;
+      
 }
-.botao1{
-    float: right;
-   background-color: aqua;
+.button1{
+   background-color: transparent;
    border: none;
-    padding: 200PX;
+ 
+}
+.button2{
+   background-color: transparent;
+   border: none;
+ 
+}.button3{
+   background-color: transparent;
+   border: none;
+ 
 }
 .brasil{
-    height: 50px;
-    width: 100px;
-    float: right;
+    height: 20px;
+    width: 40px;
+}
+.germany{
+     height: 20px;
+    width: 40px;
+}
+.usa{
+     height: 20px;
+    width: 40px;
 }
