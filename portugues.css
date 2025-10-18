@@ -1,39 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
 .header{
     height: 300px;
     width: 100%;
     background-color: #3B3737;
 }
 .logo{
-      display: flex;
-      position: relative;
-      justify-content: center;
-      align-items: center;
-      height: 660px;
-      
+    background-image: url(./starker-removebg-preview\ \(1\).png);     
+    background-size: cover; /* Para cobrir todo o espaço */
+    background-position: center center; /* Para centralizar a imagem */
+    background-repeat: no-repeat; /* Para evitar repetição */
+
 }
-.button1{
-   background-color: transparent;
-   border: none;
- 
-}
-.button2{
-   background-color: transparent;
-   border: none;
- 
-}.button3{
-   background-color: transparent;
-   border: none;
- 
-}
-.brasil{
+header .flags ul li a img{
     height: 20px;
     width: 40px;
+    padding-left: 10px;
 }
-.germany{
-     height: 20px;
-    width: 40px;
-}
-.usa{
-     height: 20px;
-    width: 40px;
-}
+
