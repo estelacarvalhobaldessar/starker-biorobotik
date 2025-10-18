@@ -1,23 +1,53 @@
 *{
-    margin: 0;
     padding: 0;
+    margin: 0;
 }
-
-.header{
+header{
     height: 300px;
     width: 100%;
     background-color: #3B3737;
+    background-image: url('./starker-removebg-preview (1).png');
+    background-repeat: no-repeat;
+    background-position: center  50px;
 }
-.logo{
-    background-image: url(./starker-removebg-preview\ \(1\).png);     
-    background-size: cover; /* Para cobrir todo o espaço */
-    background-position: center center; /* Para centralizar a imagem */
-    background-repeat: no-repeat; /* Para evitar repetição */
-
+header .flags{
+    width: 100%;
+    height: 50px;
+    display: block;
+    float: left;
+}
+header .flags ul{
+    width: 200px;
+    height: 50px;
+    float: right;
+}
+header .flags ul li{
+    float: left;
+    list-style-type: none;
+    margin-left: 10px;
+    padding-top: 10px;
+}
+header .flags ul li a{
+    text-decoration: none;
 }
 header .flags ul li a img{
     height: 20px;
     width: 40px;
     padding-left: 10px;
+}
+
+header .menu ul li {
+    font-family: "Rubik", sans-serif;
+    float: left;
+    list-style-type: none;
+    margin-left: 10px;
+    list-style-type: none;
+    color: white;
+    
+}
+a{
+    text-decoration: none;
+    color: white;
+    text-align:center;
 }
 
