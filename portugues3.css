@@ -1,0 +1,73 @@
+*{
+<<<<<<< HEAD
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+=======
+    padding: 0;
+    margin: 0;
+}
+header{
+>>>>>>> d0338a3575f906d1c6e11f6f68bb694383546dc5
+    height: 300px;
+    width: 100%;
+    background-color: #3B3737;
+    background-image: url('./starker-removebg-preview (1).png');
+    background-repeat: no-repeat;
+    background-position: center  50px;
+}
+<<<<<<< HEAD
+.logo{
+    background-image: url(./starker-removebg-preview\ \(1\).png);     
+    background-size: cover; /* Para cobrir todo o espaço */
+    background-position: center center; /* Para centralizar a imagem */
+    background-repeat: no-repeat; /* Para evitar repetição */
+
+}
+=======
+header .flags{
+    width: 100%;
+    height: 50px;
+    display: block;
+    float: left;
+}
+header .flags ul{
+    width: 200px;
+    height: 50px;
+    float: right;
+}
+header .flags ul li{
+    float: left;
+    list-style-type: none;
+    margin-left: 10px;
+    padding-top: 10px;
+}
+header .flags ul li a{
+    text-decoration: none;
+}
+>>>>>>> d0338a3575f906d1c6e11f6f68bb694383546dc5
+header .flags ul li a img{
+    height: 20px;
+    width: 40px;
+    padding-left: 10px;
+}
+<<<<<<< HEAD
+
+=======
+header .menu ul li {
+    font-family: "Rubik", sans-serif;
+    float: left;
+    list-style-type: none;
+    margin-left: 10px;
+    list-style-type: none;
+    color: white;
+    
+}
+a{
+    text-decoration: none;
+    color: white;
+    text-align:center;
+}
+>>>>>>> d0338a3575f906d1c6e11f6f68bb694383546dc5
