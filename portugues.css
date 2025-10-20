@@ -15,6 +15,7 @@ header .flags{
     height: 50px;
     display: block;
     float: left;
+    clear: both;
 }
 header .flags ul{
     width: 200px;
@@ -32,19 +33,56 @@ header .flags ul li a{
 }
 header .flags ul li a img{
     height: 20px;
-    width: 40px;
+    width: 35px;
+}
+header .menu{
+    margin: 0px auto;
+    height: 40px;
+    width: 550px;
+    padding-top: 255px;
 }
 header .menu ul li {
     font-family: "Rubik", sans-serif;
+    font-size: 20px;
     float: left;
     list-style-type: none;
-    margin-left: 10px;
+    margin-left: 12px;
     list-style-type: none;
     color: white;
-    
 }
-a{
+header .menu ul li a{
     text-decoration: none;
     color: white;
-    text-align:center;
+}
+header .menu ul li a:hover{
+    text-decoration: underline;
+}
+.body{
+    width: 100%;
+    height: 2000px;
+    background-color: rgb(217, 214, 214);
+}
+.part1{
+    border: 1px solid red;
+    margin-left: 30px;
+    height: 850px;
+    width: 1700px;
+}
+.video{
+    width: 400px;
+    height: 650px;
+    background-color: rgb(217, 214, 214);
+    margin-top: 100px;
+    margin-left: 15%;
+    box-shadow: 10px 10px 20px 5px rgba(0, 0, 0, 0.3);
+
+}
+.Detalhes{
+    width: 400px;
+    height: 650px;
+}
+.title{
+    font-family: "Rubik", sans-serif;
+    font-size: 25px;
+    font-weight: bolder;
 }
